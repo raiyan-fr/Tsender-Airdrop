@@ -22,24 +22,8 @@ export function Footer() {
             </span>
           </div>
 
-          {/* Right: Contract info */}
+          {/* Right: Tsender address */}
           <div className="flex flex-col items-center gap-2 text-sm text-slate-500 sm:items-end">
-            {tsenderAddress && tsenderAddress !== '0x0000000000000000000000000000000000000000' && (
-              <a
-                href={getExplorerTxUrl(chainId, '').replace('/tx/', '/address/') + tsenderAddress}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-1.5 text-slate-400 transition-colors hover:text-purple-400"
-              >
-                <span>Contract:</span>
-                <code className="rounded bg-slate-800 px-1.5 py-0.5 font-mono text-xs">
-                  {formatAddress(tsenderAddress)}
-                </code>
-                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            )}
             <p className="text-slate-600">
               © {new Date().getFullYear()} Tsender. Open source.
             </p>
