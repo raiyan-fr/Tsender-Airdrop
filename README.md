@@ -1,9 +1,9 @@
 ## WORK IN PROGRESS
 
-**Development done
+- **Development done**
 
-**Partial to almost complete testing done
+- **Partial to almost complete testing done**
 
-**minor debugging and issue fixing left 
+- **minor debugging and issue fixing left**
 
-**csv dropdown testing left
+- **csv dropdown testing left**
