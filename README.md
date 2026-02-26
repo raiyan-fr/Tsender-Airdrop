@@ -2,8 +2,12 @@
 
 - **Development done**
 
-- **Partial to almost complete testing done**
+- **complete testing done and issues fixed**
 
-- **minor debugging and issue fixing left**
+- **Logo changed** (proper logo is added)
+
+- **Social links and Token Address added to Footer**
 
 - **csv dropdown testing left**
+
+- **Documentation left**
